@@ -6,7 +6,7 @@ import ctypes
 from tkinter import *
 from tkinter import messagebox
 
-#ctypes.windll.user32.ShowWindow(ctypes.windll.kernel32.GetConsoleWindow(), 0) 
+ctypes.windll.user32.ShowWindow(ctypes.windll.kernel32.GetConsoleWindow(), 0) 
 def Compressed():
 
     file_path=askopenfilename()
